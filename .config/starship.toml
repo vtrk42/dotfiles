@@ -1,15 +1,6 @@
 add_newline = false
 
-format = "$os $directory$git_branch$git_status$python$character"
-
-[os]
-disabled = false
-style = "blue"
-
-[os.symbols]
-Fedora = ""
-Arch = "󰣇"
-Debian = "󰣚"
+format = " $directory$git_branch$git_status$python$character"
 
 [python]
 symbol = "  "
