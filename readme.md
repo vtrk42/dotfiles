@@ -1,9 +1,6 @@
 # My personal dotfiles
----
 
 This repo is only for store my configs of some things that I use
-
----
 
 # TO DO:
 
