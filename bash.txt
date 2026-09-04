@@ -1,5 +1,0 @@
-#Starship command or idk wth im doing with my life
-eval eval -- "$(/usr/local/bin/starship init bash --print-full-init)"
-
-#alias for fastfetch bc im too lazy to type the full name lmao
-alias ff='fastfetch'
