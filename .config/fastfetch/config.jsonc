@@ -20,6 +20,7 @@
         "break",
         {
             "type": "os",
+            "format": "{name}",
             "key": " ",
             "keyColor": "34",  // = color4
         },
@@ -51,7 +52,7 @@
         },
         {
             "type": "uptime",
-            "key": " ",
+            "key": " ",
             "keyColor": "34", 
         },
     
