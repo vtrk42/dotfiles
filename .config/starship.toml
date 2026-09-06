@@ -1,24 +1,16 @@
 add_newline = false
 
-format = " $directory$git_branch$git_status$python$character"
-
-[python]
-symbol = "  "
-style = "yellow"
-format = "[$symbol($version)]($style)"
-
-[git_branch]
-symbol = " "
-style = "red"
-format = "[$symbol$branch]($style)"
+format = "$directory$git_branch$git_status$python$character"
 
 [character]
 success_symbol = "[>](white)"
 error_symbol = "[>](red)"
 
-[directory.substitutions]
-"Documents" = "󰈙"
-"Downloads" = ""
-"Music" = "󰝚"
-"Pictures" = ""
-"Videos" = ""
+[git_branch]
+symbol = " "
+style = "red"
+format = "[$symbol]($style)"
+
+[python]
+style = "yellow"
+format = "[$virtualenv]($style)"
