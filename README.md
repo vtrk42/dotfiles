@@ -1,5 +1,5 @@
 <!--this is my first time making a readme, pls don't blame me :c-->
-# My personal configs
+## My personal configs
 
 This repo is only for store my configs of some things that I use
 <details>
@@ -16,7 +16,7 @@ This repo is only for store my configs of some things that I use
     </a>
 </details>
 
-# TO DO:
+## TO DO:
 
 - [x] Create and upload a custom config for starship
 - [x] Same thing but for kitty-term
