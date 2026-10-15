@@ -9,16 +9,9 @@ This repo is only for store my configs of some things that I use
     </a>
 </details>
 
-<details>
-  <summary>Starship</summary>
-    <a>
-      <img src="img/starship.png">
-    </a>
-</details>
-
 ## TO DO:
 
-- [x] Create and upload a custom config for starship
+- [x] ~~Create and upload a custom config for starship~~ I don't use starship anymore
 - [x] Same thing but for kitty-term
 - [x] Add preview images for each config
 - [ ] World domination with an Empanada 🥟

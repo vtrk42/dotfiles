@@ -3,7 +3,7 @@
     "logo": {
         "source": "~/.config/fastfetch/rukia.png",
         "padding": {
-            "top": 1,
+            "top": 0,
             "right": 2
         }
     },
@@ -12,53 +12,57 @@
     },
     "modules": [
 	"break",
-	"break",
-	{
-            "type": "title",
-            "keyWidth": 10
-        },
         "break",
+        {
+            "type": "title",
+            "keyWidth": 10,
+            "color": {
+              "user": "black",
+              "at": "white",
+              "host": "black"
+            }
+
+        },
         {
             "type": "os",
             "format": "{name}",
             "key": " ",
-            "keyColor": "34",  // = color4
+            "keyColor": "32"  // = color7
         },
         {
             "type": "kernel",
             "key": " ",
-            "keyColor": "34",
+            "keyColor": "33"
         },
         {
             "type": "packages",
             
             "key": " ",
-            "keyColor": "34",  
+            "keyColor": "34"  
         },
         {
             "type": "shell",
             "key": " ",
-            "keyColor": "34", 
+            "keyColor": "35" 
         },
         {
             "type": "terminal",
             "key": " ",
-            "keyColor": "34", 
+            "keyColor": "31" 
         },
         {
             "type": "de",
             "key": " ",
-            "keyColor": "34", 
+            "keyColor": "37" 
         },
         {
             "type": "uptime",
             "key": " ",
-            "keyColor": "34", 
+            "keyColor": "36" 
         },
     
         "break",
-        "colors",
         "break",
-        "break",
+        "break"
     ]
 }

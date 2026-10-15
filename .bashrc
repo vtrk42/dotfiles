@@ -1,31 +1,15 @@
-# .bashrc
+#
+# ~/.bashrc
+#
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
-fi
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
-# User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
-   PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi
-export PATH
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
+#PS1='[\u@\h \W]\$ '
 
-# User specific aliases and functions
-if [ -d ~/.bashrc.d ]; then
-    for rc in ~/.bashrc.d/*; do
-        if [ -f "$rc" ]; then
-            . "$rc"
-        fi
-    done
-fi
-unset rc
+PS1='\[\e[34m\]\W\[\e[0m\] > '
 
-#starship
-eval eval -- "$(/usr/local/bin/starship init bash --print-full-init)"
-
-#fastfetch alias bc im too lazy to type the full command
 alias ff='fastfetch'
